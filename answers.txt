@@ -1,0 +1,8 @@
+What is the Difference between merge and rebase?
+Merge:
+Purpose: Merging is used to combine the changes from one branch into another while preserving the branch's commit history. It creates a new merge commit to record the merge, resulting in a more linear history with separate branches clearly visible.
+Result: Merged branches remain distinct and have their own commit histories. The branch you merged into will have a new merge commit that ties together the histories of both branches.
+
+Rebase:
+Purpose: Rebasing is used to incorporate changes from one branch into another by moving or "replaying" the commits from the source branch on top of the target branch. It results in a linear, more streamlined history with no merge commits.
+Result: The branch being rebased (source branch) effectively starts from a new base commit on the target branch. This can make it appear as if the changes on the source branch were made directly on top of the target branch. 
