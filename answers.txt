@@ -1,3 +1,4 @@
+
 What is the Difference between merge and rebase?
 Merge:
 Purpose: Merging is used to combine the changes from one branch into another while preserving the branch's commit history. It creates a new merge commit to record the merge, resulting in a more linear history with separate branches clearly visible.
@@ -6,3 +7,7 @@ Result: Merged branches remain distinct and have their own commit histories. The
 Rebase:
 Purpose: Rebasing is used to incorporate changes from one branch into another by moving or "replaying" the commits from the source branch on top of the target branch. It results in a linear, more streamlined history with no merge commits.
 Result: The branch being rebased (source branch) effectively starts from a new base commit on the target branch. This can make it appear as if the changes on the source branch were made directly on top of the target branch. 
+
+What is a remote repository?
+A remote URL is Git's fancy way of saying "the place where your code is stored." That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.To be able to collaborate on any Git project, you need to know how to manage your remote repositories. Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you. Collaborating with others involves managing these remote repositories and pushing and pulling data to and from them when you need to share work.
+
